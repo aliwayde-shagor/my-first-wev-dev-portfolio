@@ -201,9 +201,14 @@ main section{
 
 /* footer style */
 footer{
-    padding:130px 230px;
+    padding:130px 230px 0px 230px;
+}
+.footer-column-parant{
     display: flex;
     gap: 100px;
+}
+footer .img-gap .icon,img{
+  padding: 0px 7px;
 }
 .footer-column{
     width: 50%;
@@ -222,4 +227,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     padding: 10px  20px;
     margin-bottom: 24px;
     border: none;
+}
+.copy-right{
+    text-align: center;
+    margin-top: 100px;
 }
