@@ -140,9 +140,6 @@ main section{
     display: flex;
     justify-content: space-around;
 }
-.about-item{
-    /* margin-bottom:677 px; */
-}
 .item-description{ 
     font-weight: bold;
 }
@@ -159,9 +156,6 @@ main section{
 
 
 /* resume section styles */
-.resume{
-    /* text-align: center; */
-}
 .section-title{
     color: #181818;
     font-size: 35px;
